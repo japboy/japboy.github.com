@@ -129,7 +129,9 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 */
-class Bt{constructor(t){this.value=t.toString()}toString(){return this.value}}function Yt(t){if(t instanceof Bt)return t.value;throw new Error(`non-literal value passed to Polymer's htmlLiteral function: ${t}`)}const $t=function(t,...e){const r=document.createElement("template");return r.innerHTML=e.reduce((e,r,i)=>e+function(t){if(t instanceof HTMLTemplateElement)return t.innerHTML;if(t instanceof Bt)return Yt(t);throw new Error(`non-template value passed to Polymer's html function: ${t}`)}(r)+t[i+1],t[0]),r},Jt=Mt(HTMLElement);var Ut;c=!0,Ut=window.MyAppGlobals.rootPath,_=Ut,window.customElements.define("my-app",class extends Jt{static get template(){return $t`
-      <p>Hey,</p>
+class Bt{constructor(t){this.value=t.toString()}toString(){return this.value}}function Yt(t){if(t instanceof Bt)return t.value;throw new Error(`non-literal value passed to Polymer's htmlLiteral function: ${t}`)}const $t=function(t,...e){const r=document.createElement("template");return r.innerHTML=e.reduce((e,r,i)=>e+function(t){if(t instanceof HTMLTemplateElement)return t.innerHTML;if(t instanceof Bt)return Yt(t);throw new Error(`non-template value passed to Polymer's html function: ${t}`)}(r)+t[i+1],t[0]),r},Jt=Mt(HTMLElement);var Ut;c=!0,Ut=window.MyAppGlobals.rootPath,_=Ut,window.customElements.define("page-home",class extends Jt{static get template(){return $t`
+      <section>
+        <p>web is awesome.</p>
+      </section>
     `}constructor(){super()}static get properties(){return{}}})},function(t,e,r){t.exports=r(1)}]);
-//# sourceMappingURL=app-12ef082.js.map
+//# sourceMappingURL=app-5fcc24f.js.map
