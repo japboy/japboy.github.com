@@ -253,9 +253,9 @@ class Q extends Z{update(t){super.update(t);const e=this.render();e instanceof _
             <p class="linkedin">
               <a href="https://www.linkedin.com/in/yuinao/">LinkedIn</a>
             </p>
-          `:M``}}
+          `:M``}
       </main>
     `}}(function(t,e,i,s){var n,o=arguments.length,r=o<3?e:null===s?s=Object.getOwnPropertyDescriptor(e,i):s;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(t,e,i,s);else for(var a=t.length-1;a>=0;a--)(n=t[a])&&(r=(o<3?n(r):o>3?n(e,i,r):n(e,i))||r);o>3&&r&&Object.defineProperty(e,i,r)})([J({type:String})],st.prototype,"gravatar",void 0),window.customElements.define("template-home",st);window.customElements.define("page-home",class extends Q{static get properties(){return{}}constructor(){super()}render(){return M`
       <template-home gravatar="1e4b7d2f20a2ecb20497d9b8704e6107"></template-home>
     `}})}]);
-//# sourceMappingURL=app-8358b66.js.map
+//# sourceMappingURL=app-59bbb6d.js.map
