@@ -273,4 +273,4 @@ class Z extends J{update(t){super.update(t);const e=this.render();e instanceof y
     `}}(function(t,e,i,n){var s,o=arguments.length,r=o<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,i):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(t,e,i,n);else for(var a=t.length-1;a>=0;a--)(s=t[a])&&(r=(o<3?s(r):o>3?s(e,i,r):s(e,i))||r);o>3&&r&&Object.defineProperty(e,i,r)})([K({type:String})],nt.prototype,"gravatar",void 0),window.customElements.define("template-home",nt);window.customElements.define("page-home",class extends Z{static get properties(){return{}}constructor(){super()}render(){return k`
       <template-home gravatar="1e4b7d2f20a2ecb20497d9b8704e6107"></template-home>
     `}})}});
-//# sourceMappingURL=app-f7f0b88.js.map
+//# sourceMappingURL=app-9f51f27.js.map
