@@ -301,4 +301,4 @@ const Z=(t,e)=>"method"!==e.kind||!e.descriptor||"value"in e.descriptor?{kind:"f
     `}}(function(t,e,s,i){var n,r=arguments.length,o=r<3?e:null===i?i=Object.getOwnPropertyDescriptor(e,s):i;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(t,e,s,i);else for(var a=t.length-1;a>=0;a--)(n=t[a])&&(o=(r<3?n(o):r>3?n(e,s,o):n(e,s))||o);r>3&&o&&Object.defineProperty(e,s,o)})([et({type:String})],lt.prototype,"gravatar",void 0),window.customElements.define("template-home",lt);window.customElements.define("page-home",class extends nt{static get properties(){return{}}constructor(){super()}render(){return R`
       <template-home gravatar="1e4b7d2f20a2ecb20497d9b8704e6107"></template-home>
     `}})}});
-//# sourceMappingURL=app-77a2dab.js.map
+//# sourceMappingURL=app-76552ad.js.map
